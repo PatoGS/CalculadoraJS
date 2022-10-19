@@ -1,0 +1,53 @@
+.fondo{
+    background-color: black;
+}
+
+.calculadora {
+
+    width: 700 px;
+    max-width: 700px;
+    min-width: 700px;
+    height: 700 px;
+    border-radius: 5px;
+
+}
+
+.midisplay {
+    height: 6rem;
+    font-size:3rem;
+    background-color: rgb(212, 212, 212);
+    align-content: center;
+    border-radius: 5px;
+    width: 505px;
+    max-width: 505px;
+    vertical-align: middle;
+    border-color: rgb(13, 13, 13) !important;
+    overflow-x: clip;
+
+}
+
+.dispcontent{
+    position: relative;
+    top: 12%;
+}
+
+.boton_calc{
+
+    width: 3rem;
+    height: 3rem;
+    background-color: rgb(56, 56, 56);
+    border-color: #112 !important;
+    align-content: center;
+
+}
+
+.boton_calc:hover{
+    background-color: rgb(119, 119, 119) !important;
+}
+
+.boton_igual {
+
+    height: 7rem;
+    background-color: rgb(168, 168, 168);
+    color: #112;
+}
