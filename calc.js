@@ -154,16 +154,19 @@ function tocaron(tecla){
                 if(isNaN(mensaje[mensaje.length-1])){
                 
                     mensaje += memory;
+                    mensaje_aux += memory;
                     
                 } else 
                 {
                     mensaje = memory;
+                    mensaje_aux=memory;
                 }
 
 
             } else {
                 mensaje_aux = Function("return " + mensaje_aux) ();
                 mensaje = mensaje_aux.toString();
+                mensaje_aux=mensaje;
                 memory=mensaje;
                 document.getElementById("Memory").innerHTML="MR";
             }
